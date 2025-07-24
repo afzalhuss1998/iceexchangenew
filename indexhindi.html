@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ICEEXCHANGE - भारत का भरोसेमंद प्लेटफॉर्म</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
+    }
+    header img.logo-main {
+      height: 120px; /* बढ़ा हुआ लोगो साइज */
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    .brand-text {
+      color: #ff0000;
+      font-weight: bold;
+    }
+
+    .language-tabs {
+      display:flex;
+      justify-content:center;
+      gap:15px;
+      padding:8px 0;
+      background:#000;
+    }
+    .language-tabs a {
+      color:#fff; /* फॉन्ट कलर सफेद */
+      background: #ff0000;
+      text-decoration:none;
+      font-size:14px;
+      border:1px solid #444;
+      padding:5px 10px;
+      border-radius:4px;
+      font-weight:bold;
+      transition: background 0.3s, color 0.3s;
+    }
+    .language-tabs a:hover { background:#ff2b2b; color:#fff; }
+
+    nav {
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      padding:10px;
+      background:#111;
+    }
+    nav a {
+      color:#fff;
+      text-decoration:none;
+      font-size:16px;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #ff0000; }
+
+    .hero {
+      background: rgba(0, 0, 0, 0.75);
+      padding:100px 20px;
+      text-align:center;
+    }
+    .hero h2 {
+      font-size:32px;
+      color:#fff;
+      margin-bottom:10px;
+    }
+    .hero p {
+      font-size:18px;
+      color:#fffae6;
+      margin:8px 0;
+    }
+
+    .cta-buttons a, .register-btn {
+      display:inline-block;
+      padding:12px 20px;
+      background:#ff0000;
+      color:#fff;
+      border-radius:5px;
+      margin:5px;
+      text-decoration:none;
+      font-weight:bold;
+      transition: all 0.3s ease;
+    }
+    .cta-buttons a:hover, .register-btn:hover {
+      background:#fff;
+      color:#000;
+      transform: scale(1.05);
+    }
+
+    .section {
+      padding:30px 20px;
+      text-align:center;
+      background: rgba(24, 24, 24, 0.85);
+      margin-top: 10px;
+    }
+    .section h3 {
+      font-size:24px;
+      color:#ff0000;
+      margin-bottom:15px;
+    }
+    .section p {
+      font-size:17px;
+      color:#fff;
+      margin-bottom:10px;
+      max-width:900px;
+      margin-left:auto;
+      margin-right:auto;
+      line-height:1.6;
+    }
+
+    .features {
+      text-align:left;
+      color:#ffe;
+      margin-top:15px;
+      max-width:900px;
+      margin:auto;
+    }
+    .features li {
+      margin-bottom:8px;
+    }
+
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      font-size: 22px;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      z-index: 999;
+      animation: pulse 2s infinite;
+      margin-left: 10px;
+    }
+    .floating-whatsapp.second {
+      right: 80px; /* दूसरा नंबर थोड़ा बायाँ */
+    }
+    @keyframes pulse {
+      0% {transform: scale(1);}
+      50% {transform: scale(1.1);}
+      100% {transform: scale(1);}
+    }
+
+    footer {
+      background:#000;
+      padding:10px;
+      text-align:center;
+      color:#bbb;
+      font-size:14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="ICEEXCHANGE लोगो" class="logo-main">
+</header>
+
+<div class="language-tabs">
+  <a href="index.html">English</a>
+  <a href="indexhindi.html">Hindi</a>
+  <a href="indexkannada.html">Kannada</a>
+  <a href="indextelugu.html">Telugu</a>
+</div>
+
+<nav>
+  <a href="#">मुखपृष्ठ</a>
+  <a href="#">हमारे बारे में</a>
+  <a href="#">ऑफ़र</a>
+  <a href="#">संपर्क करें</a>
+</nav>
+
+<section class="hero">
+  <h2><span class="brand-text">ICEEXCHANGE</span> – भारत का भरोसेमंद प्लेटफॉर्म</h2>
+  <p>हजारों उपयोगकर्ताओं के साथ जुड़ें <span class="brand-text">ICEEXCHANGE</span> पर – आपका अंतिम स्थान स्लॉट गेम खेलने, क्रिकेट ऑनलाइन पूर्वानुमान लगाने, और भारत में बड़ी जीत हासिल करने के लिए।</p>
+  <p>तेजी से और सुरक्षित गेमप्ले का अनुभव करें, आसान <span class="brand-text">ICEEXCHANGE</span> लॉगिन एक्सेस के साथ।</p>
+  <p>अपना <strong>www.<span class="brand-text">iceexchange.in</span></strong> आईडी प्राप्त करें और आज ही खेलना शुरू करें।</p>
+  <div class="cta-buttons">
+    <a href="https://wa.me/+918010105610" target="_blank">व्हाट्सएप से जुड़ें</a>
+    <a href="https://wa.me/+918010105710" target="_blank">व्हाट्सएप से जुड़ें</a>
+  </div>
+</section>
+
+<section class="section">
+  <h3><span class="brand-text">ICEEXCHANGE</span> के बारे में</h3>
+  <p><span class="brand-text">ICEEXCHANGE</span> ऑनलाइन गेमिंग में एक अग्रणी नाम है, जो क्रिकेट पूर्वानुमान, स्लॉट गेम्स, और रोमांचक रंग पूर्वानुमान गेम तक निर्बाध पहुँच प्रदान करता है।</p>
+</section>
+
+<section class="section">
+  <h3><span class="brand-text">ICEEXCHANGE</span> पर कैसीनो गेम्स</h3>
+  <ul class="features">
+    <li>🎰 भारत में ऑनलाइन स्लॉट गेम्स</li>
+    <li>🎲 रूले</li>
+    <li>♠️ पोकर</li>
+    <li>🃏 ब्लैकजैक</li>
+    <li>♥️ बाक्कराट</li>
+    <li>🎥 लाइव कैसीनो टेबल्स असली डीलर्स के साथ</li>
+  </ul>
+  <div style="margin-top:20px;">
+    <a class="register-btn" href="https://wa.me/+918010105610" target="_blank">व्हाट्सएप से जुड़ें</a>
+    <a class="register-btn" href="https://wa.me/+918010105710" target="_blank">व्हाट्सएप से जुड़ें</a>
+  </div>
+</section>
+
+<section class="section">
+  <h3>बोनस और पुरस्कार</h3>
+  <p>निष्ठा बोनस – नियमित खिलाड़ियों को इनाम मिलता है।</p>
+  <p>रेफरल बोनस – दोस्तों को आमंत्रित करें और अधिक कमाएं!</p>
+  <div style="margin-top:20px;">
+    <a class="register-btn" href="https://wa.me/+918010105610" target="_blank">व्हाट्सएप से जुड़ें</a>
+    <a class="register-btn" href="https://wa.me/+918010105710" target="_blank">व्हाट्सएप से जुड़ें</a>
+  </div>
+</section>
+
+<section class="section">
+  <h3>भुगतान के तरीके</h3>
+  <ul class="features">
+    <li>🏦 नेट बैंकिंग</li>
+    <li>📲 यूपीआई पेमेंट्स</li>
+    <li>💳 सीधे बैंक ट्रांसफर</li>
+  </ul>
+  <div style="margin-top:20px;">
+    <a class="register-btn" href="https://wa.me/+918010105610" target="_blank">व्हाट्सएप से जुड़ें</a>
+    <a class="register-btn" href="https://wa.me/+918010105710" target="_blank">व्हाट्सएप से जुड़ें</a>
+  </div>
+</section>
+
+<section class="section">
+  <h3>संपर्क करें <span class="brand-text">ICEEXCHANGE</span> – हम 24/7 आपकी सेवा में हैं</h3>
+  <p>कोई सवाल है, मदद चाहिए या प्रतिक्रिया साझा करनी है? <span class="brand-text">ICEEXCHANGE</span> सपोर्ट टीम हर समय आपकी सहायता के लिए उपलब्ध है — लॉगिन समस्या, जमा, निकासी, गेम एक्सेस और अधिक में।</p>
+  <p>कभी भी संपर्क करें — हम बस एक संदेश दूर हैं और सर्वोत्तम गेमिंग अनुभव देने के लिए प्रतिबद्ध हैं।</p>
+  <div style="margin-top:20px;">
+    <a class="register-btn" href="https://wa.me/+918010105610" target="_blank">व्हाट्सएप से जुड़ें</a>
+    <a class="register-btn" href="https://wa.me/+918010105710" target="_blank">व्हाट्सएप से जुड़ें</a>
+  </div>
+</section>
+
+<section class="section" style="background:#0a0a0a; border-top:2px solid #ff0000;">
+  <h3 style="color:#ff0000;">अस्वीकरण</h3>
+  <p style="color:#ff9999; font-size:16px; max-width:900px; margin:auto;">
+    यह वेबसाइट केवल <strong>18+</strong> उपयोगकर्ताओं के लिए है। यदि आप 
+    <strong>तेलंगाना, ओडिशा, असम, सिक्किम,</strong> या <strong>नागालैंड</strong> से हैं, तो कृपया वेबसाइट छोड़ दें।
+  </p>
+  <p style="color:#eee; font-size:16px; max-width:900px; margin:auto;">
+    धोखाधड़ी से सावधान रहें — हम केवल व्हाट्सएप के माध्यम से ही संपर्क करते हैं।
+  </p>
+  <p style="color:#0ff; font-size:16px; max-width:900px; margin:auto;">
+    <strong>हम केवल फैंटेसी स्पोर्ट्स का प्रचार करते हैं। कोई असली पैसे का लेन-देन नहीं।</strong>
+  </p>
+</section>
+
+<!-- Floating WhatsApp buttons -->
+<a class="floating-whatsapp" href="https://wa.me/+918010105610" target="_blank" aria-label="WhatsApp चैट 1">💬</a>
+<a class="floating-whatsapp second" href="https://wa.me/+918010105710" target="_blank" aria-label="WhatsApp चैट 2">💬</a>
+
+<footer>
+  © 2025 <span class="brand-text">ICEEXCHANGE</span>. सर्वाधिकार सुरक्षित।
+</footer>
+
+</body>
+</html>
